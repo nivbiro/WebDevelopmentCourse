@@ -1,0 +1,100 @@
+body 
+{
+    direction:rtl;
+    background-image: url("../images/HitHolonLogo.svg.png");
+}
+#container {
+    background-color: #0e0a0ae0;
+    margin-top: 100px;
+    width: 960px;
+    height: 600px;
+    -webkit-box-shadow: 0 0 50px 30px #0e0a0ae0;
+    box-shadow: 0 0 50px 30px #0e0a0ae0;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size:70px;
+    color: purple;
+    margin:auto;
+
+}
+h2{
+    font-size: 30px;
+    color: purple;
+    font-style:italic;
+    border-left:dashed;
+}
+p {
+    font-size:20px;
+    color: purple;
+    font-style:italic;
+}
+
+
+
+                                                     /*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
+#HT5C3 {
+    width: 960px;
+    margin-top: 50px;
+}
+#HT5C3 form {
+    text-align: center;
+    margin: 0px 120px 0px 120px;
+    padding: 5px 0px 5px 0px;
+    background-color: ghostwhite;
+    border: 2px solid blue;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+#HT5C3 form label {
+    color: blue;
+    font-size: 14pt;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 30px 10px 30px;
+}
+#mytxt {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+#mymail {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+#mySelection {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+#myPsw {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+#kishor {
+    position: fixed;
+    margin-top: 370px;
+    margin-right: -86px;
+}
+.connect {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+footer {
+    position: fixed;
+    text-align: center;
+    width: 960px;
+}
